@@ -1,5 +1,5 @@
 {
-  "name": "drop-anywhere",
+  "name": "component-drop-anywhere",
   "description": "Drop anywhere to upload a file",
   "version": "0.6.1",
   "keywords": [
@@ -8,22 +8,13 @@
     "drop",
     "file"
   ],
+  "styles": [
+    "drop-anywhere.css"
+  ],
   "dependencies": {
-    "classes-component": "*",
-    "drop-component": "0.1.x",
-    "events-component-2": "*"
+    "component-classes": "git://github.com/npmcomponent/component-classes.git",
+    "component-events": "git://github.com/npmcomponent/component-events.git",
+    "component-drop": "git://github.com/npmcomponent/component-drop.git"
   },
-  "license": "MIT",
-  "component": {
-    "scripts": {
-      "drop-anywhere/index.js": "index.js"
-    },
-    "styles": [
-      "drop-anywhere.css"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/drop-anywhere.git"
-  }
+  "license": "MIT"
 }

@@ -3,9 +3,9 @@
  * Module dependencies.
  */
 
-var drop = require('drop');
-var events = require('events');
-var classes = require('classes');
+var drop = require('component-drop');
+var events = require('component-events');
+var classes = require('component-classes');
 
 /**
  * Expose `DropAnywhere`.
